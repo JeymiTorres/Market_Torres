@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="my-4">
+      <h1 class="text-center">Market Torres</h1>
+    </header>
+    <main class="row">
+      <section id="products" class="col-md-8">
+        <h2>Productos</h2>
+        <div id="product-list" class="row"></div>
+      </section>
+      <section id="cart" class="col-md-4">
+        <h2>Carrito de Compras</h2>
+        <ul id="cart-items" class="list-group"></ul>
+        <p class="mt-2">Total: $<span id="total">0.00</span></p>
+        <form id="checkout-form">
+          <div class="form-group">
+            <label for="name">Nombre:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Comprar</button>
+        </form>
+      </section>
+    </main>
+    <footer class="text-center mt-5">
+      <p>&copy; 2024 Market Torres. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

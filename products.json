@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "name": "Mochila Nike",
+        "price": 700,
+        "image": "imagenes/mochila.png"
+      },
+
+    {
+      "id": 2,
+      "name": "Joggers Nike",
+      "price": 800,
+      "image": "imagenes/joggers.png"
+    },
+    {
+      "id": 3,
+      "name": "Sudadera Nike",
+      "price": 1500,
+      "image": "imagenes/sudadera.png"
+    },
+    {
+        "id": 4,
+        "name": "Tops ",
+        "price": 550,
+        "image":  "imagenes/tops.png"
+      },
+      {
+        "id": 5,
+        "name": "Sandalias",
+        "price": 850,
+        "image": "imagenes/sandalias.png"
+      },
+      {
+        "id": 6,
+        "name": "Playera",
+        "price": 1240 ,
+        "image": "imagenes/playera.png"
+      },
+      {
+        "id": 7,
+        "name": "Tenis Rosas",
+        "price": 2400 ,
+        "image":"imagenes/nikerosas.png"
+      },
+      {
+        "id": 8,
+        "name": "Tenis Rojos",
+        "price": 4400,
+        "image":"imagenes/nikerojos.png"
+      },
+      {
+        "id": 9,
+        "name": "Tenis Negros",
+        "price": 4700,
+        "image":"imagenes/nikenegros.png"
+      },
+      {
+        "id": 10,
+        "name": "Tenis Blancos",
+        "price":  4900,
+        "image":"imagenes/nike blancos.png"
+      }
+  ]
+  
